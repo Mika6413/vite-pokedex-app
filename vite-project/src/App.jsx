@@ -1,6 +1,6 @@
 import MyTitle from "./components/MyTitle"
-import Bulbasaur from "./assets/Bulbasaur.png"
-// import PokemonCard from "./components/PokemonCard"
+// import Bulbasaur from "./assets/Bulbasaur.png"
+import PokemonCard from "./components/PokemonCard"
 
 function App() {
   
@@ -8,8 +8,8 @@ function App() {
     
       <div>
         <MyTitle />
-        {/* <PokemonCard /> */}
-        <img src={Bulbasaur} alt="image Bulbasaur" />
+        <PokemonCard />  
+        {/* <img src={Bulbasaur} alt="image Bulbasaur" /> */}
       </div>
       
   )
