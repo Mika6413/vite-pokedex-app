@@ -2,6 +2,8 @@ import MyTitle from "./components/MyTitle"
 // import Bulbasaur from "./assets/Bulbasaur.png"
  import PokemonCard from "./components/PokemonCard"
 
+ 
+
 function App() {
   
   return (
